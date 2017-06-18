@@ -2,7 +2,7 @@ FROM mariosky/perl6_base
 
 #Basic setup and programs
 RUN apk update &&  apk upgrade \
-    &&  apk add git python py-pip 
+    &&  apk add git python py-pip perl-dev
 
 
 
